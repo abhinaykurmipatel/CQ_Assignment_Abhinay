@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hot_Rating_Customer</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RATING</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.SITE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RATING</field>
+        <operation>equals</operation>
+        <value>Hot</value>
+    </filters>
+    <label>Hot Rating Customer</label>
+</ListView>
